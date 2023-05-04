@@ -1,8 +1,8 @@
 /* Global ===================== */
 :root {
-    --dark-blue: #363f5f;
-    --green: #2d9009;
-    --light-green: #4b6e3fae;
+    --dark-blue: #474850;
+    --green: #379c12;
+    --light-green: #42c71dae;
     --red: #e92929;
 
 }
@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    background: #282830;
+    background: #1f1f24;
     font-family:'Poppins', sans-serif
 }
 
@@ -103,7 +103,7 @@ button:hover {
 
 /* Header ===================== */
 header {
-    background: #414c3d;
+    background: #242722;
     padding: 2rem 0 10rem;
     text-align: center;
 }
