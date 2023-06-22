@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exemplo de utilização de API com JavaScript</title>
+  <style>
+
+  </style>
+</head>
+<body>
+  <h1>Chuck Norris Jokes</h1>
+  <button onclick="buscarPiada()">Buscar Piada</button>
+  <div id="piada"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
