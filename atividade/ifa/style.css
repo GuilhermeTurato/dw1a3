@@ -1,0 +1,17 @@
+span.red{
+    color: red;
+}
+
+.alert{
+    margin-top: 1rem;
+}
+
+label{
+    margin-top: 8px;
+}
+
+@media screen and (max-device-width: 640px) {
+    label{
+        margin-top: 0px;
+    }    
+}
