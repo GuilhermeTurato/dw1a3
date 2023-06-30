@@ -4,28 +4,28 @@
                 {
                     doctor: 'joao',
                     gem: {
-                        day: '1º Segunda-feira',
-                        hour: '09:00'
+                        day: '1º Seg 9:00',
+                        hour: ''
                     },
                     local: {
-                        day: '3º Terça-feira',
-                        hour: '14:30'
+                        day: '3º Ter 14:30 ',
+                        hour: '1'
                     }
                 },
                 {
                     doctor: 'marcos',
                     gem: {
-                        day: '2º Terça-feira',
-                        hour: '10:30'
+                        day: '2º Ter 10:30',
+                        hour: ''
                     },
                     local: {
-                        day: '4º Quinta-feira',
+                        day: '4º Qui 16:00',
                         hour: '16:00'
                     }
                 }
             ];
 
-            const diasSemana = ['domingo', 'segunda-feira', 'terça-feira', 'quarta-feira', 'quinta-feira', 'sexta-feira', 'sábado'];
+            const diasSemana = ['dom', 'seg', 'ter', 'qua', 'qui', 'sex', 'sáb'];
             const currentDate = new Date();
             const diaAtual = currentDate.getDate();
             const mesAtual = currentDate.getMonth();
