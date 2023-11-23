@@ -1,0 +1,139 @@
+* {
+    margin: 0 ;
+    padding: 0;
+    
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    line-height: 1.9em;
+}
+    
+
+#area-cabecalho{
+    background-color: rgb(144, 34, 34);;
+    padding: 15px ;
+    text-align: center;
+    
+}
+#area-logo{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(144, 34, 34);;
+}
+h2{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+a:link, a:visited{
+    color: whitesmoke;
+    padding: 8px 15px;
+}
+
+a:hover{
+    color: rgb(5, 13, 21);;
+    background-color: whitesmoke;
+    border-radius: 5%;
+}
+#area-esquerda{
+    background-color:rgb(144, 34, 34);;
+}
+.login{
+    background-color: rgb(144, 34, 34);;
+    text-align: right;
+}
+#conteudopag{
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-left: 0%;
+    padding-top: 10%;
+   
+    
+    
+}
+
+
+footer{
+  position: fixed;
+ text-align: center;
+  bottom: 0;
+  margin-left: 420px;
+  margin-bottom: 2%;
+}
+.linhalateral{
+    padding: 5%;
+}
+
+
+main{
+    
+  background-color: rgba(255, 255, 255, 0.716); /* Ajuste o valor do último parâmetro (0.5) conforme necessário */
+  background-blend-mode: overlay;
+  background-size: cover;
+  padding-bottom: 30%;
+}
+h1{
+    margin-bottom: 20px;
+    
+}
+h2{
+    
+    margin-bottom: 20px;
+}
+.imagens img{
+   
+    justify-content: space-between;
+    border-radius: 0.2cm;
+    margin-right: 120px;
+    margin-left: 190px;
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+#meuInput {
+    width: 200px; /* Largura da caixa de texto */
+    height: 30px; /* Altura da caixa de texto */
+    padding: 4px; /* Espaçamento interno da caixa de texto */
+    border: 1px solid #ccc; /* Estilo da borda da caixa de texto */
+    border-radius: 4px; /* Borda arredondada */
+    font-size: 16px; /* Tamanho da fonte */
+  }
+  #opcoes {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+  }
+
+  #orcamento{
+    background-color: rgb(21, 129, 237);
+    text-align: center;
+    padding-top: 10%;
+    margin-left: 400px;
+    margin-right: 400px;
+    height: 350px;
+    padding-bottom: 10%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+
+  }
+
+  #meuparagrafo{
+    color: aliceblue;
+  }
+  #resultado{
+    color: aliceblue;
+  }
+  #emailStatus{
+    color: aliceblue;
+  }
+  .center-table {
+        margin: 0 auto;}
+  
+    
+
